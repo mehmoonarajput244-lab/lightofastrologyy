@@ -115,7 +115,55 @@ input, textarea {
     border-radius: 8px;
     border: none;
 }
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
 
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Navbar mobile fix */
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    /* Slider images fix */
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Text size adjust */
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Sections spacing */
+    section {
+        padding: 15px;
+    }
+}
 /* FOOTER */
 footer {
     text-align: center;
